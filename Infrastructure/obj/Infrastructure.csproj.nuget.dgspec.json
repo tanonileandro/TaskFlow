@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\SourceCode\\TaskFlow\\Application\\Application.csproj",
         "projectName": "Application",
         "projectPath": "C:\\SourceCode\\TaskFlow\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\tanon\\.nuget\\packages\\",
         "outputPath": "C:\\SourceCode\\TaskFlow\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tanon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,11 +75,11 @@
         "projectUniqueName": "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
         "projectName": "Domain",
         "projectPath": "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\tanon\\.nuget\\packages\\",
         "outputPath": "C:\\SourceCode\\TaskFlow\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tanon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,11 +136,11 @@
         "projectUniqueName": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
         "projectPath": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\tanon\\.nuget\\packages\\",
         "outputPath": "C:\\SourceCode\\TaskFlow\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tanon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

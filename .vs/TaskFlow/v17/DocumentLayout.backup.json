@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "C:\\SourceCode\\TaskFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F232817F-7A4D-4FFB-9EF3-DF461CD7CA0D}|Infrastructure\\Infrastructure.csproj|c:\\sourcecode\\taskflow\\infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F232817F-7A4D-4FFB-9EF3-DF461CD7CA0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F232817F-7A4D-4FFB-9EF3-DF461CD7CA0D}|Infrastructure\\Infrastructure.csproj|c:\\sourcecode\\taskflow\\infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F232817F-7A4D-4FFB-9EF3-DF461CD7CA0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DDFCDA-71AD-4970-BCF9-769DD65CC578}|WebAPI\\WebAPI.csproj|c:\\sourcecode\\taskflow\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DDFCDA-71AD-4970-BCF9-769DD65CC578}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DDFCDA-71AD-4970-BCF9-769DD65CC578}|WebAPI\\WebAPI.csproj|c:\\sourcecode\\taskflow\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8DDFCDA-71AD-4970-BCF9-769DD65CC578}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F232817F-7A4D-4FFB-9EF3-DF461CD7CA0D}|Infrastructure\\Infrastructure.csproj|c:\\sourcecode\\taskflow\\infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F232817F-7A4D-4FFB-9EF3-DF461CD7CA0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|c:\\sourcecode\\taskflow\\application\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC435577-6E26-4E5A-8764-73A016E0B5F8}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F232817F-7A4D-4FFB-9EF3-DF461CD7CA0D}|Infrastructure\\Infrastructure.csproj|c:\\sourcecode\\taskflow\\infrastructure\\data\\taskflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F232817F-7A4D-4FFB-9EF3-DF461CD7CA0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\taskflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFC57B8-D7D6-4870-BFD6-E01A5F955D65}|Domain\\Domain.csproj|c:\\sourcecode\\taskflow\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFC57B8-D7D6-4870-BFD6-E01A5F955D65}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8CFC57B8-D7D6-4870-BFD6-E01A5F955D65}|Domain\\Domain.csproj|c:\\sourcecode\\taskflow\\domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFC57B8-D7D6-4870-BFD6-E01A5F955D65}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8CFC57B8-D7D6-4870-BFD6-E01A5F955D65}|Domain\\Domain.csproj|c:\\sourcecode\\taskflow\\domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFC57B8-D7D6-4870-BFD6-E01A5F955D65}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFC57B8-D7D6-4870-BFD6-E01A5F955D65}|Domain\\Domain.csproj|c:\\sourcecode\\taskflow\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFC57B8-D7D6-4870-BFD6-E01A5F955D65}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8DDFCDA-71AD-4970-BCF9-769DD65CC578}|WebAPI\\WebAPI.csproj|c:\\sourcecode\\taskflow\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -46,15 +106,210 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CommentDTO.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\DTOs\\CommentDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\CommentDTO.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\DTOs\\CommentDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\CommentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T23:20:30.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectDTO.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\DTOs\\ProjectDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ProjectDTO.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\DTOs\\ProjectDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\ProjectDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T23:19:52.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientDTO.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\DTOs\\ClientDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ClientDTO.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\DTOs\\ClientDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\ClientDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T23:19:13.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminDTO.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\DTOs\\AdminDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AdminDTO.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\DTOs\\AdminDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\AdminDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T23:18:23.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T23:01:25.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:55:36.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:54:56.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:54:22.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:53:17.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ICommentRepository.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\ICommentRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:52:23.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IProjectRepository.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\IProjectRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:52:07.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAdminRepository.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\IAdminRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:49:11.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:47:57.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IClientRepository.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Application\\Interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:47:56.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskFlowDbContext.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Data\\TaskFlowDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\TaskFlowDbContext.cs",
+              "ToolTip": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Data\\TaskFlowDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\TaskFlowDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T12:02:00.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Domain\\Entities\\Project.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Project.cs",
@@ -66,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Domain\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Comment.cs",
@@ -74,12 +329,11 @@
               "RelativeToolTip": "Domain\\Entities\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T10:40:20.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T10:40:20.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Domain\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Client.cs",
@@ -91,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Domain\\Entities\\Admin.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Admin.cs",
@@ -103,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
@@ -115,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "WebAPI.csproj",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\WebAPI\\WebAPI.csproj",
               "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
@@ -127,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -139,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "Application.csproj",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -151,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",

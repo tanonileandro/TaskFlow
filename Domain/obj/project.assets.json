@@ -8,7 +8,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\tanon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
       "projectName": "Domain",
       "projectPath": "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\tanon\\.nuget\\packages\\",
       "outputPath": "C:\\SourceCode\\TaskFlow\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tanon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
