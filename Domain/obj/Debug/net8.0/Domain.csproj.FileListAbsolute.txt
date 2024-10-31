@@ -1,0 +1,12 @@
+C:\SourceCode\TaskFlow\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\SourceCode\TaskFlow\Domain\bin\Debug\net8.0\Domain.dll
+C:\SourceCode\TaskFlow\Domain\bin\Debug\net8.0\Domain.pdb
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.dll
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.pdb
+C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -1,0 +1,16 @@
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\SourceCode\TaskFlow\Application\bin\Debug\net8.0\Application.deps.json
+C:\SourceCode\TaskFlow\Application\bin\Debug\net8.0\Application.dll
+C:\SourceCode\TaskFlow\Application\bin\Debug\net8.0\Application.pdb
+C:\SourceCode\TaskFlow\Application\bin\Debug\net8.0\Domain.dll
+C:\SourceCode\TaskFlow\Application\bin\Debug\net8.0\Domain.pdb
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Application.dll
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\refint\Application.dll
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\Application.pdb
+C:\SourceCode\TaskFlow\Application\obj\Debug\net8.0\ref\Application.dll

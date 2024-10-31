@@ -23,7 +23,7 @@ namespace Infrastructure.Data
             // Configuración de User y herencia con Admin y Client
             modelBuilder.Entity<User>(entity =>
             {
-                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedNever();
                 entity.Property(e => e.Name).IsRequired();
                 entity.Property(e => e.Email).IsRequired();
                 entity.Property(e => e.Password).IsRequired();
@@ -80,6 +80,30 @@ namespace Infrastructure.Data
                       .HasForeignKey(c => c.ProjectId)
                       .OnDelete(DeleteBehavior.Cascade);
             });
+
+            var admin1 = new Admin
+            {
+                Id = 1,
+                Name = "Admin One",
+                Email = "admin1@example.com",
+                UserName = "admin1",
+                Password = BCrypt.Net.BCrypt.HashPassword("Password123!"), // Encriptar la contraseña
+                State = true
+            };
+
+            var client1 = new Client
+            {
+                Id = 2,
+                Name = "Client One",
+                Email = "client1@example.com",
+                UserName = "client1",
+                Password = BCrypt.Net.BCrypt.HashPassword("Password123!"), // Encriptar la contraseña
+                State = true
+            };
+
+            // Agregar los datos sembrados al modelo
+            modelBuilder.Entity<Admin>().HasData(admin1);
+            modelBuilder.Entity<Client>().HasData(client1);
         }
     }
 }
