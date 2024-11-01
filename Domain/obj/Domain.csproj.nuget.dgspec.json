@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj": {}
+    "D:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj": {
+    "D:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\tanon\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceCode\\TaskFlow\\Domain\\obj\\",
+        "projectPath": "D:\\SourceCode\\TaskFlow\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Tanoni\\.nuget\\packages\\",
+        "outputPath": "D:\\SourceCode\\TaskFlow\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tanon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tanoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

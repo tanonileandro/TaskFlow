@@ -11,6 +11,7 @@ using Application.Interfaces;
 using AutoMapper;
 using Application.Mappings;
 using Application.Models;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TaskFlowDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Registrar los repositorios
+// Registro de los repositorios
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();
@@ -37,14 +38,24 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 // Cargar la configuración de JWT desde appsettings.json
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
 
-// Agregar controladores
 builder.Services.AddControllers();
-
-builder.Services.AddScoped<IAuthService, AuthService>();
 
 // Configurar la autenticación JWT
 var key = builder.Configuration["Jwt:Key"];
 var issuer = builder.Configuration["Jwt:Issuer"];
+
+// Ajustar la clave a 32 bytes
+var keyBytes = Encoding.UTF8.GetBytes(key);
+if (keyBytes.Length < 32)
+{
+    Array.Resize(ref keyBytes, 32);
+    for (int i = key.Length, j = 0; i < 32; i++, j++)
+    {
+        keyBytes[i] = keyBytes[j % key.Length];
+    }
+}
+
+var symmetricKey = new SymmetricSecurityKey(keyBytes);
 
 builder.Services.AddAuthentication(options =>
 {
@@ -60,17 +71,46 @@ builder.Services.AddAuthentication(options =>
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         ValidIssuer = issuer,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
+        IssuerSigningKey = symmetricKey
     };
 });
 
-// Configurar Swagger
+// Configuracion Swagger
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "TaskFlow API", Version = "v1" });
+
+    // Configuracion para soportar JWT en Swagger
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Ingrese 'Bearer' seguido de un espacio y su token JWT.",
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
 
 var app = builder.Build();
 
-// Configurar el middleware
+// Configuracion del middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

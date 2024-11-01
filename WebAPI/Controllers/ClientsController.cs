@@ -17,7 +17,6 @@ namespace WebAPI.Controllers
             _clientService = clientService;
         }
 
-        // GET: api/Clients
         [HttpGet]
         public async Task<IActionResult> GetClients()
         {
@@ -25,7 +24,6 @@ namespace WebAPI.Controllers
             return Ok(clients);
         }
 
-        // GET: api/Clients/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetClient(int id)
         {
@@ -36,7 +34,6 @@ namespace WebAPI.Controllers
             return Ok(client);
         }
 
-        // POST: api/Clients
         [HttpPost]
         public async Task<IActionResult> PostClient([FromBody] ClientDTO clientDto)
         {
@@ -47,7 +44,6 @@ namespace WebAPI.Controllers
             return CreatedAtAction(nameof(GetClient), new { id = clientDto.Id }, clientDto);
         }
 
-        // PUT: api/Clients/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutClient(int id, [FromBody] ClientDTO clientDto)
         {
@@ -61,7 +57,6 @@ namespace WebAPI.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Clients/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteClient(int id)
         {

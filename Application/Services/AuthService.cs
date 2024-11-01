@@ -1,12 +1,12 @@
 ﻿using Application.Interfaces;
 using Application.Models;
-using BCrypt.Net; // Para BCrypt
+using BCrypt.Net;
 using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens; // Para SecurityTokenDescriptor y relacionados
+using Microsoft.IdentityModel.Tokens;
 using System;
-using System.IdentityModel.Tokens.Jwt; // Para JwtSecurityTokenHandler
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,19 +36,33 @@ namespace Application.Services
             }
 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.UTF8.GetBytes(_jwtSettings.Key);
+
+            var keyBytes = Encoding.UTF8.GetBytes(_jwtSettings.Key);
+
+            if (keyBytes.Length < 32)
+            {
+                Array.Resize(ref keyBytes, 32);
+                for (int i = _jwtSettings.Key.Length, j = 0; i < 32; i++, j++)
+                {
+                    keyBytes[i] = keyBytes[j % _jwtSettings.Key.Length];
+                }
+            }
+
+            var key = new SymmetricSecurityKey(keyBytes);
+
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user is Admin ? "Admin" : "Client")
+            };
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[]
-                {
-                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                    new Claim(ClaimTypes.Email, user.Email),
-                    new Claim(ClaimTypes.Role, user is Admin ? "Admin" : "Client")
-                }),
+                Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddHours(2),
                 Issuer = _jwtSettings.Issuer,
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+                SigningCredentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature)
             };
 
             var token = tokenHandler.CreateToken(tokenDescriptor);

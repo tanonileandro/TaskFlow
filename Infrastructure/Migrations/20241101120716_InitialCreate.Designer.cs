@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(TaskFlowDbContext))]
-    [Migration("20241031012919_SeedData")]
-    partial class SeedData
+    [Migration("20241101120716_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -139,11 +139,11 @@ namespace Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            Email = "admin1@example.com",
-                            Name = "Admin One",
-                            Password = "$2a$11$H3SSEKBnh4rw4CUSlCJbweIA8qkecvRxLabDwP6DTUq8wUxbrAZLK",
+                            Email = "tanoni@gmail.com",
+                            Name = "Admin",
+                            Password = "$2a$11$EY9J/690gpmuDwLDJbqHXuos7/.jPTKWIRXKgMva1Kpvg1hcHtKfm",
                             State = true,
-                            UserName = "admin1"
+                            UserName = "Tano"
                         });
                 });
 
@@ -157,11 +157,11 @@ namespace Infrastructure.Migrations
                         new
                         {
                             Id = 2,
-                            Email = "client1@example.com",
-                            Name = "Client One",
-                            Password = "$2a$11$W2NP2ylF7gmKv.kD2tm4YebY62TN4v8ZoOYVER.awJ20K2IgoZD4q",
+                            Email = "carlos@hotmail.com",
+                            Name = "Carlos",
+                            Password = "$2a$11$XiCwI.Fa/LApfwQ5Nh335eaFCmgCCpyaMJs8hG1juwKKX4cIE4iEG",
                             State = true,
-                            UserName = "client1"
+                            UserName = "Carlos"
                         });
                 });
 

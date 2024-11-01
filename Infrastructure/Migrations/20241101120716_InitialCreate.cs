@@ -7,7 +7,7 @@
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class SeedData : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -102,8 +102,8 @@ namespace Infrastructure.Migrations
                 columns: new[] { "Id", "Discriminator", "Email", "Name", "Password", "State", "UserName" },
                 values: new object[,]
                 {
-                    { 1, "Admin", "admin1@example.com", "Admin One", "$2a$11$H3SSEKBnh4rw4CUSlCJbweIA8qkecvRxLabDwP6DTUq8wUxbrAZLK", true, "admin1" },
-                    { 2, "Client", "client1@example.com", "Client One", "$2a$11$W2NP2ylF7gmKv.kD2tm4YebY62TN4v8ZoOYVER.awJ20K2IgoZD4q", true, "client1" }
+                    { 1, "Admin", "tanoni@gmail.com", "Admin", "$2a$11$EY9J/690gpmuDwLDJbqHXuos7/.jPTKWIRXKgMva1Kpvg1hcHtKfm", true, "Tano" },
+                    { 2, "Client", "carlos@hotmail.com", "Carlos", "$2a$11$XiCwI.Fa/LApfwQ5Nh335eaFCmgCCpyaMJs8hG1juwKKX4cIE4iEG", true, "Carlos" }
                 });
 
             migrationBuilder.CreateIndex(

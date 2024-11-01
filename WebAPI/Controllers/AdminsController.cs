@@ -17,7 +17,6 @@ namespace WebAPI.Controllers
             _adminService = adminService;
         }
 
-        // GET: api/Admins
         [HttpGet]
         public async Task<IActionResult> GetAdmins()
         {
@@ -25,7 +24,6 @@ namespace WebAPI.Controllers
             return Ok(admins);
         }
 
-        // GET: api/Admins/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAdmin(int id)
         {
@@ -36,7 +34,6 @@ namespace WebAPI.Controllers
             return Ok(admin);
         }
 
-        // POST: api/Admins
         [HttpPost]
         public async Task<IActionResult> PostAdmin([FromBody] AdminDTO adminDto)
         {
@@ -47,7 +44,6 @@ namespace WebAPI.Controllers
             return CreatedAtAction(nameof(GetAdmin), new { id = adminDto.Id }, adminDto);
         }
 
-        // PUT: api/Admins/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAdmin(int id, [FromBody] AdminDTO adminDto)
         {
@@ -60,8 +56,7 @@ namespace WebAPI.Controllers
             await _adminService.UpdateAsync(adminDto);
             return NoContent();
         }
-
-        // DELETE: api/Admins/5
+    
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAdmin(int id)
         {

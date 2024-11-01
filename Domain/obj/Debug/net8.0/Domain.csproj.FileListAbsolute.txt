@@ -10,3 +10,15 @@ C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.dll
 C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.pdb
 C:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\SourceCode\TaskFlow\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\SourceCode\TaskFlow\Domain\bin\Debug\net8.0\Domain.dll
+D:\SourceCode\TaskFlow\Domain\bin\Debug\net8.0\Domain.pdb
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.dll
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\Domain.pdb
+D:\SourceCode\TaskFlow\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -38,7 +38,6 @@ namespace TaskFlow.Application.Services
         {
             var client = _mapper.Map<Client>(clientDto);
 
-            // Encriptar la contraseña antes de almacenarla
             client.Password = BCrypt.Net.BCrypt.HashPassword(client.Password);
 
             await _clientRepository.AddAsync(client);
@@ -48,7 +47,6 @@ namespace TaskFlow.Application.Services
         {
             var client = _mapper.Map<Client>(clientDto);
 
-            // Si estás actualizando la contraseña, encríptala
             if (!string.IsNullOrEmpty(clientDto.Password))
             {
                 client.Password = BCrypt.Net.BCrypt.HashPassword(clientDto.Password);

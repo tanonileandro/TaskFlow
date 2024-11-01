@@ -18,9 +18,9 @@ namespace Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configuración de las entidades y sus relaciones
+            // Configuracinn de las entidades y sus relaciones
 
-            // Configuración de User y herencia con Admin y Client
+            // Configuracinn de User y herencia con Admin y Client
             modelBuilder.Entity<User>(entity =>
             {
                 entity.Property(e => e.Id).ValueGeneratedNever();
@@ -31,11 +31,11 @@ namespace Infrastructure.Data
                 entity.Property(e => e.State).HasDefaultValue(true);
             });
 
-            // Configuración de la herencia (TPH - Table Per Hierarchy)
+            // Configuracinn de la herencia (TPH - Table Per Hierarchy)
             modelBuilder.Entity<Admin>().HasBaseType<User>();
             modelBuilder.Entity<Client>().HasBaseType<User>();
 
-            // Configuración de Project
+            // Configuracinn de Project
             modelBuilder.Entity<Project>(entity =>
             {
                 entity.HasKey(e => e.Id);
@@ -43,26 +43,26 @@ namespace Infrastructure.Data
                 entity.Property(e => e.Description);
                 entity.Property(e => e.State).HasDefaultValue(true);
 
-                // Relación con Admin (uno a muchos)
+                // Relacinn con Admin (uno a muchos)
                 entity.HasOne(p => p.Admin)
                       .WithMany(a => a.CreatedProjects)
                       .HasForeignKey(p => p.AdminId)
                       .OnDelete(DeleteBehavior.Restrict);
 
-                // Relación con Client (uno a muchos)
+                // Relacion con Client (uno a muchos)
                 entity.HasOne(p => p.Client)
                       .WithMany(c => c.AssignedProjects)
                       .HasForeignKey(p => p.ClientId)
                       .OnDelete(DeleteBehavior.Restrict);
 
-                // Relación con Comments
+                // Relacion con Comments
                 entity.HasMany(p => p.Comments)
                       .WithOne(c => c.Project)
                       .HasForeignKey(c => c.ProjectId)
                       .OnDelete(DeleteBehavior.Cascade);
             });
 
-            // Configuración de Comment
+            // Configuracion de Comment
             modelBuilder.Entity<Comment>(entity =>
             {
                 entity.HasKey(e => e.Id);
@@ -84,24 +84,24 @@ namespace Infrastructure.Data
             var admin1 = new Admin
             {
                 Id = 1,
-                Name = "Admin One",
-                Email = "admin1@example.com",
-                UserName = "admin1",
-                Password = BCrypt.Net.BCrypt.HashPassword("Password123!"), // Encriptar la contraseña
+                Name = "Admin",
+                Email = "tanoni@gmail.com",
+                UserName = "Tano",
+                Password = BCrypt.Net.BCrypt.HashPassword("Clave123!"), // Encriptacion de la contraseña
                 State = true
             };
 
             var client1 = new Client
             {
                 Id = 2,
-                Name = "Client One",
-                Email = "client1@example.com",
-                UserName = "client1",
-                Password = BCrypt.Net.BCrypt.HashPassword("Password123!"), // Encriptar la contraseña
+                Name = "Carlos",
+                Email = "carlos@hotmail.com",
+                UserName = "Carlos",
+                Password = BCrypt.Net.BCrypt.HashPassword("Clave123!"),
                 State = true
             };
 
-            // Agregar los datos sembrados al modelo
+            // Agregar los datos al modelo
             modelBuilder.Entity<Admin>().HasData(admin1);
             modelBuilder.Entity<Client>().HasData(client1);
         }

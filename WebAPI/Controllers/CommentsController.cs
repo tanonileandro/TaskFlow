@@ -17,7 +17,6 @@ namespace WebAPI.Controllers
             _commentService = commentService;
         }
 
-        // GET: api/Comments
         [HttpGet]
         public async Task<IActionResult> GetComments()
         {
@@ -25,7 +24,6 @@ namespace WebAPI.Controllers
             return Ok(comments);
         }
 
-        // GET: api/Comments/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetComment(int id)
         {
@@ -36,7 +34,6 @@ namespace WebAPI.Controllers
             return Ok(comment);
         }
 
-        // POST: api/Comments
         [HttpPost]
         public async Task<IActionResult> PostComment([FromBody] CommentDTO commentDto)
         {
@@ -47,7 +44,6 @@ namespace WebAPI.Controllers
             return CreatedAtAction(nameof(GetComment), new { id = commentDto.Id }, commentDto);
         }
 
-        // PUT: api/Comments/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutComment(int id, [FromBody] CommentDTO commentDto)
         {
@@ -61,7 +57,6 @@ namespace WebAPI.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Comments/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComment(int id)
         {
